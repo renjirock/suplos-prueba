@@ -1,8 +1,8 @@
 <?php 
 require 'Conexion.php';
-
+//Con una solucion de ajax se logra almacenar los datos sin la necesidad de recargar la pagina.
 $db = new Conexion();
-$direccion = $_GET['Direccion'];
+$direccion = $_POST['Direccion'];
 $ciudad = $_POST['Ciudad'];
 $telefono = $_POST['Telefono'];
 $codigoPostal = $_POST['CodigoPostal'];

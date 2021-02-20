@@ -12,15 +12,16 @@ if($ciudad === null && $tipo === null){
 }else{
     $direccion = $db->query('SELECT * FROM save_bienes WHERE ciudad = ? or tipo = ?', $ciudad, $tipo)->fetchAll();
 }
-
-
+/*
+    para el desarrollo de un documento xls solo era necesario el utilizar el comando header, tambien para facilitar 
+    el envio de datos, todo se conecto atravez de un ajax. 
+*/
 header('Content-type: application/vnd.ms-excel;charset=iso-8859-15');
 header('Content-Disposition: attachment; filename=BienesGuardados.xls');
 
 ?>
 <table border="1">
     <tr>
-    <th><?php echo $ciudad; ?></th>
         <th>Direccion</th>
         <th>ciudad</th>
         <th>Telefono</th>

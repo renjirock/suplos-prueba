@@ -237,7 +237,7 @@ class SearchView
                             let ciudad = document.getElementById('selectCiudad').value;
                             let tipo = document.getElementById('selectTipo').value;
                             let precio = document.getElementById('rangoPrecio').value;
-                            location.href="SearchData.php?ciudad="+ciudad+"&tipo="+tipo+"&precio"+precio;
+                            location.href="SearchData.php?ciudad="+ciudad+"&tipo="+tipo+"&precio="+precio;
                         }
                     </script>
                 </body>

@@ -1,6 +1,11 @@
 <?php
     class Conexion {
 
+        /*
+            Esta conexion con la base de datos es una que suelo utilizar cuando me enfrento a un proyecto que no presenta una conexion por defecto
+            como se puede ver, es bastante completa y representa una buena solucion para problemas de seguridad con la base de datos.
+        */
+
         protected $connection;
         protected $query;
         protected $show_errors = TRUE;
