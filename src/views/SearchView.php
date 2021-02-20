@@ -71,7 +71,7 @@ class SearchView
                                     foreach ($products as $product) {
                                         ?>
                                             <div class="tituloContenido card filterDiv <?php echo str_replace(" ", "_", $product['Ciudad']); echo " "; echo str_replace(" ", "_", $product['Tipo']); ?>" style="justify-content: center;">
-                                                <img src="https://media.istockphoto.com/photos/for-sale-sign-in-yard-of-house-picture-id109350668?k=6&m=109350668&s=612x612&w=0&h=8Y7iXu1b1GL7nqGoKG2VG7sUCeSOCmRiNtzuPmFss5w=" alt="Smiley face" width="200" height="200">
+                                                <img src="Resources/img/home.jpg" alt="Smiley face" width="200" height="200">
                                                 <div>
                                                 <?php
                                                     echo '<p><h6><b>Direccion:</b></h6>';
